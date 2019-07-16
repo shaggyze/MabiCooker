@@ -127,7 +127,7 @@
     <value>Rank F (Bake)</value>
   </data>
   <data name="cbRankSelector.Items2" xml:space="preserve">
-    <value>Rank E (Boil)</value>
+    <value>Rank E (Simmering)</value>
   </data>
   <data name="cbRankSelector.Items3" xml:space="preserve">
     <value>Rank D (Dough)</value>
@@ -152,6 +152,21 @@
   </data>
   <data name="cbRankSelector.Items10" xml:space="preserve">
     <value>Rank 6 (Make Pie) </value>
+  </data>
+  <data name="cbRankSelector.Items11" xml:space="preserve">
+    <value>Rank 5 (Steaming) </value>
+  </data>
+  <data name="cbRankSelector.Items12" xml:space="preserve">
+    <value>Rank 4 (Pizza Making) </value>
+  </data>
+  <data name="cbRankSelector.Items13" xml:space="preserve">
+    <value>Rank 3 (Fermenting) </value>
+  </data>
+  <data name="cbRankSelector.Items14" xml:space="preserve">
+    <value>Rank 2 (Sous-vide) </value>
+  </data>
+  <data name="cbRankSelector.Items15" xml:space="preserve">
+    <value>Rank 1 (Julienning) </value>
   </data>
   <data name="tpRank.Text" xml:space="preserve">
     <value>Rank</value>

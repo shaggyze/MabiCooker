@@ -12,7 +12,7 @@ namespace MabiCooker2
 {
     public partial class MabiCooker : Form
     {
-        private const int RankSize = 11;
+        private const int RankSize = 16;
         private const int BufferSize = 128;
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace MabiCooker2
         public MabiCooker()
         {
             InitializeComponent();
-            for (int i = 0; i <= 10; i++)
+            for (int i = 0; i <= 15; i++)
             {
                 this.Opacity = 0.1 * i;
                 System.Threading.Thread.Sleep(5);
@@ -248,19 +248,37 @@ namespace MabiCooker2
                 #region old code : ~v2.3
                 //* 20100103~ // Version 2.1 */
                 // SIMPLE IS BEST!!! //
-                CookReader = new StreamReader("cook.dat");
-                while ((lineBuffer = CookReader.ReadLine()) != null) CookData.Add(new Cook(lineBuffer));
-                CookReader.Close();
-                CookReader = new StreamReader("favcook.dat");
-                while ((lineBuffer = CookReader.ReadLine()) != null)
+                if (File.Exists("english.tag"))
                 {
-                    Cook DataBuffer = new Cook(lineBuffer); int i = 0;
-                    if ((i = CookData.IndexOf(DataBuffer)) != -1) FavList.Add(i);
+                    CookReader = new StreamReader("cook.en.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) CookData.Add(new Cook(lineBuffer));
+                    CookReader.Close();
+                    CookReader = new StreamReader("favcook.en.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null)
+                    {
+                        Cook DataBuffer = new Cook(lineBuffer); int i = 0;
+                        if ((i = CookData.IndexOf(DataBuffer)) != -1) FavList.Add(i);
+                    }
+                    CookReader.Close();
+                    CookReader = new StreamReader("stuff.en.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) StuffData.Add(new Stuff(lineBuffer));
+                    CookReader.Close();
+                } else
+                {
+                    CookReader = new StreamReader("cook.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) CookData.Add(new Cook(lineBuffer));
+                    CookReader.Close();
+                    CookReader = new StreamReader("favcook.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null)
+                    {
+                        Cook DataBuffer = new Cook(lineBuffer); int i = 0;
+                        if ((i = CookData.IndexOf(DataBuffer)) != -1) FavList.Add(i);
+                    }
+                    CookReader.Close();
+                    CookReader = new StreamReader("stuff.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) StuffData.Add(new Stuff(lineBuffer));
+                    CookReader.Close();
                 }
-                CookReader.Close();
-                CookReader = new StreamReader("stuff.dat");
-                while ((lineBuffer = CookReader.ReadLine()) != null) StuffData.Add(new Stuff(lineBuffer));
-                CookReader.Close();
                 // 20100103~ // Version 2.1 // END */
                 #endregion
                 return true;
@@ -480,7 +498,7 @@ namespace MabiCooker2
         }
         private void lCopyrites_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            /*
+            
 			if (File.Exists("supervisor.tag"))
 			{
                 for (int i = 0; i < CookData.Count; i++)
@@ -548,10 +566,10 @@ namespace MabiCooker2
             }
 			
             else
-            {*/
+            {
             System.Diagnostics.Process.Start("http://dehol.kr");
             return;
-            //}
+            }
         }
         private void MabiCooker_FormClosed(object sender, FormClosedEventArgs e)
         {

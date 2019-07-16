@@ -716,6 +716,21 @@
   <data name="cbRankSelector.Items10" xml:space="preserve">
     <value>Rank 6 (파이) </value>
   </data>
+  <data name="cbRankSelector.Items11" xml:space="preserve">
+    <value>Rank 5 (?) </value>
+  </data>
+  <data name="cbRankSelector.Items12" xml:space="preserve">
+    <value>Rank 4 (?) </value>
+  </data>
+  <data name="cbRankSelector.Items13" xml:space="preserve">
+    <value>Rank 3 (?) </value>
+  </data>
+  <data name="cbRankSelector.Items14" xml:space="preserve">
+    <value>Rank 2 (?) </value>
+  </data>
+  <data name="cbRankSelector.Items15" xml:space="preserve">
+    <value>Rank 1 (?) </value>
+  </data>
   <data name="cbRankSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 8</value>
   </data>
