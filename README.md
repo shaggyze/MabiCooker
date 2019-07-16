@@ -2,7 +2,7 @@
 
 A tool for overlaying the amount of ingredients in Mabinogi's cooking skills.
 
-Korean and Japanese only.
+English, Korean and Japanese.
 
 ## Dependencies
 
