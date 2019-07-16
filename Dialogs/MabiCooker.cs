@@ -51,7 +51,7 @@ namespace MabiCooker2
         public MabiCooker()
         {
             InitializeComponent();
-            for (int i = 0; i <= 15; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 this.Opacity = 0.1 * i;
                 System.Threading.Thread.Sleep(5);
@@ -559,7 +559,7 @@ namespace MabiCooker2
                 DataTable tblCook = new DataTable("tblCook");
                 DataTable tblStuff = new DataTable("tblStuff");
                 DataColumn col;
-                DataRow row;
+                // DataRow row;
 
                 col = new DataColumn("No", typeof(int));
                 col.Unique = true; col.AutoIncrement = true; tblCook.Columns.Add(col);

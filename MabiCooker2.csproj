@@ -55,8 +55,9 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CookImplement">
-      <HintPath>..\..\CookImplement-master (1)\CookImplement-master\bin\Release\CookImplement.dll</HintPath>
+    <Reference Include="CookImplement, Version=2.3.2.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CookImplement-master (2)\CookImplement-master\bin\Release\CookImplement.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -89,12 +90,15 @@
     <Compile Include="Settings.cs" />
     <EmbeddedResource Include="Dialogs\CookDetailView.en.resx">
       <DependentUpon>CookDetailView.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\CookDetailView.ja.resx">
       <DependentUpon>CookDetailView.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\CookDetailView.resx">
       <DependentUpon>CookDetailView.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\CookRatioView.en.resx">
       <DependentUpon>CookRatioView.cs</DependentUpon>
