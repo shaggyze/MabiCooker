@@ -130,7 +130,17 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="bin\Release\cook.dat" />
+    <None Include="bin\Release\cook.en.dat" />
+    <None Include="bin\Release\english.tag" />
+    <None Include="bin\Release\favcook.dat" />
+    <None Include="bin\Release\favcook.en.dat" />
+    <None Include="bin\Release\stuff.dat" />
+    <None Include="bin\Release\stuff.en.dat" />
     <None Include="datas\cook.dat" />
+    <None Include="datas\en\cook.dat" />
+    <None Include="datas\en\favcook.dat" />
+    <None Include="datas\en\stuff.dat" />
     <None Include="datas\favcook.dat" />
     <None Include="datas\ja\cook.dat" />
     <None Include="datas\ja\favcook.dat" />
@@ -189,9 +199,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Release\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
