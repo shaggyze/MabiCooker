@@ -9,9 +9,9 @@ using System.Resources;
 [assembly: AssemblyTitle("MabiCooker2")]
 [assembly: AssemblyDescription("Mabinogi cooking skill helper")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DeHol / Logue")]
+[assembly: AssemblyCompany("DeHol / Logue / ShaggyZE")]
 [assembly: AssemblyProduct("MabiCooker2")]
-[assembly: AssemblyCopyright("Copyright © 2009 DeHol / Modified by Logue 2011-2012")]
+[assembly: AssemblyCopyright("Copyright © 2009 DeHol / Modified by Logue 2011-2012 / Modified by ShaggyZE 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.3.2.4")]
-[assembly: AssemblyFileVersion("2.3.2.4")]
+[assembly: AssemblyVersion("2.3.4.5")]
+[assembly: AssemblyFileVersion("2.3.4.5")]
 [assembly: NeutralResourcesLanguageAttribute("ko-KR")]

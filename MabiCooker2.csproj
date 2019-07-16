@@ -132,19 +132,27 @@
     <None Include="app.config" />
     <None Include="bin\Release\cook.dat" />
     <None Include="bin\Release\cook.en.dat" />
+    <None Include="bin\Release\cook.ja.dat" />
     <None Include="bin\Release\english.tag" />
     <None Include="bin\Release\favcook.dat" />
     <None Include="bin\Release\favcook.en.dat" />
+    <None Include="bin\Release\favcook.ja.dat" />
+    <None Include="bin\Release\japan.tag" />
     <None Include="bin\Release\stuff.dat" />
     <None Include="bin\Release\stuff.en.dat" />
+    <None Include="bin\Release\stuff.ja.dat" />
     <None Include="datas\cook.dat" />
     <None Include="datas\en\cook.dat" />
     <None Include="datas\en\favcook.dat" />
     <None Include="datas\en\stuff.dat" />
     <None Include="datas\favcook.dat" />
     <None Include="datas\ja\cook.dat" />
+    <None Include="datas\ja\cook.ja.dat" />
     <None Include="datas\ja\favcook.dat" />
+    <None Include="datas\ja\favcook.ja.dat" />
+    <None Include="datas\ja\japan.tag" />
     <None Include="datas\ja\stuff.dat" />
+    <None Include="datas\ja\stuff.ja.dat" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
