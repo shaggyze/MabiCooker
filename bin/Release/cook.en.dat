@@ -191,29 +191,14 @@ Shrimp Bruschetta;P;Bread,Mixed Vegetables,Shrimp;5:23,6:10,7:10,8:10,0:1;96,87,
 Pasta Marinara;9;Long Pasta,Tomato,Onion;1:30,8:30,0:2;125,59,46
 Granita;P;Mixed Fruit,Ice,Sugar;5:23,7:27,0:2;115,82,33
 Mana Herb Garlic Steak;F;Sliced Meat,Mana Herb,Garlic;5:20,6:20,7:20,8:20,0:increased combat experience;140,55,35
-     ;P5;Water,Water;0:Rank 5 (Steaming);229,1,0
---Rank 5 (Steaming);P5;Water,Water;0:Rank 5 (Steaming);229,1,0
-     ;P5;Water,Water;0:Rank 5 (Steaming);229,1,0
 Braised Angler Fish;5;Angler Fish,Celery;1:+10,5:+15,6:+26;139,91,0
-Braised Catfish and Clams;P5;Catfish,Shellfish,Garlic;5:+16,6:+15;114,88,28
-Holiday Rice Cake;P5;Rice,Water,Sugar;0:no effect added yet;173,41,16
-Pork Galbi Stew;P5;Large Meat,Mixed Vegetables,Meat Marinade;0:no effect added yet;161,23,46
-Pumpkin Galbi Stew;P5;Sweet Pumpkin,Sliced Meat,Meat Marinade;0:no effect added yet;184,39,7
-    ;P4;Water,Water;0:Rank 4 (Pizza Making);229,1,0
---Rank 4 (Pizza Making);P4;Water,Water;0:Rank 5 (Pizza Making);229,1,0
-    ;P4;Water,Water;0:Rank 4 (Pizza Making);229,1,0
-Plain Pizza Dough;P4;Flour Dough,Flour Dough;0:no effect added yet;229,1,0
-Red Sauce Pizza Dough;P4;Flour Dough,Tomato Sauce;0:no effect added yet;202,28,0
-Calzone;P4;Red Sauce Pizza Dough,Bacon,Slice of Cheese;0:no effect added yet;94,74,62
-Chocolate Pizza;P4;Plain Pizza Dough,Baking Chocolate,Marshmallow;0:no effect added yet;92,94,44
-Courcle Pizza;P4;Red Sauce Pizza Dough,Pineapple,Handmade Sirloin Ham;0:no effect added yet;85,60,85
-   ;P3;Water,Water;0:Rank 3 (Fermenting);229,1,0
---Rank 3 (Fermenting);P3;Water,Water;0:Rank 3 (Fermenting);229,1,0
-   ;P3;Water,Water;0:Rank 3 (Fermenting);229,1,0
-  ;P2;Water,Water;0:Rank 2 (Sous-vide);229,1,0
---Rank 2 (Sous-vide);P2;Water,Water;0:Rank 2 (Sous-vide);229,1,0
-  ;P2;Water,Water;0:Rank 2 (Sous-vide);229,1,0
+Braised Catfish and Clams;5;Catfish,Shellfish,Garlic;5:+16,6:+15;114,88,28
+Holiday Rice Cake;5;Rice,Water,Sugar;0:no effect added yet;173,41,16
+Pork Galbi Stew;5;Large Meat,Mixed Vegetables,Meat Marinade;0:no effect added yet;161,23,46
+Pumpkin Galbi Stew;5;Sweet Pumpkin,Sliced Meat,Meat Marinade;0:no effect added yet;184,39,7
+Plain Pizza Dough;4;Flour Dough,Flour Dough;0:no effect added yet;229,1,0
+Red Sauce Pizza Dough;4;Flour Dough,Tomato Sauce;0:no effect added yet;202,28,0
+Calzone;4;Red Sauce Pizza Dough,Bacon,Slice of Cheese;0:no effect added yet;94,74,62
+Chocolate Pizza;4;Plain Pizza Dough,Baking Chocolate,Marshmallow;0:no effect added yet;92,94,44
+Courcle Pizza;4;Red Sauce Pizza Dough,Pineapple,Handmade Sirloin Ham;0:no effect added yet;85,60,85
 Handmade Sirloin Ham;2;Large Meat,Pepper,Butter;0:no effect added yet;195,14,21
- ;P1;Water,Water;0:Rank 1 (Julienning);229,1,0
---Rank 1 (Julienning);P1;Water,Water;0:Rank 1 (Julienning);229,1,0
- ;P1;Water,Water;0:Rank 1 (Julienning);229,1,0
