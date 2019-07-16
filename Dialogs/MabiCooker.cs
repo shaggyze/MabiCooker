@@ -263,6 +263,21 @@ namespace MabiCooker2
                     CookReader = new StreamReader("stuff.en.dat");
                     while ((lineBuffer = CookReader.ReadLine()) != null) StuffData.Add(new Stuff(lineBuffer));
                     CookReader.Close();
+                } else if (File.Exists("japan.tag"))
+                {
+                    CookReader = new StreamReader("cook.ja.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) CookData.Add(new Cook(lineBuffer));
+                    CookReader.Close();
+                    CookReader = new StreamReader("favcook.ja.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null)
+                    {
+                        Cook DataBuffer = new Cook(lineBuffer); int i = 0;
+                        if ((i = CookData.IndexOf(DataBuffer)) != -1) FavList.Add(i);
+                    }
+                    CookReader.Close();
+                    CookReader = new StreamReader("stuff.ja.dat");
+                    while ((lineBuffer = CookReader.ReadLine()) != null) StuffData.Add(new Stuff(lineBuffer));
+                    CookReader.Close();
                 } else
                 {
                     CookReader = new StreamReader("cook.dat");
