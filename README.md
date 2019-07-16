@@ -6,7 +6,7 @@ English, Korean and Japanese.
 
 ## Dependencies
 
-* [CookImplement](https://github.com/logue/CookImplement)
+* [CookImplement](https://github.com/shaggyze/CookImplement)
 
 ## Link
 
